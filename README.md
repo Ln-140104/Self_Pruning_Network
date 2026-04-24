@@ -43,15 +43,6 @@ Total gate parameters: 3,803,648
 
 ---
 
-## Setup & Run
-
-```bash
-git clone https://github.com/YOUR_USERNAME/self-pruning-neural-network.git
-cd self-pruning-neural-network
-pip install -r requirements.txt
-python self_pruning_network.py
-```
-
 CIFAR-10 downloads automatically (~170 MB). Runtime: ~30 min on GPU.
 
 ---
@@ -85,7 +76,7 @@ L1 is equivalent to LASSO regularization — the same reason it produces exact z
 
 | File | Description |
 |------|-------------|
-| `self_pruning_network.py` | Full solution: `PrunableLinear`, network, dual-optimizer training loop, plots |
+| `Self_Pruning.ipynb` | Full solution: `PrunableLinear`, network, dual-optimizer training loop, plots |
 | `report.md` | Written analysis with results and sparsity explanation |
 | `requirements.txt` | Python dependencies |
 | `pruning_results.png` | Output plot — accuracy, sparsity, gate distribution |
